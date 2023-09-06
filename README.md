@@ -44,11 +44,13 @@
 - Assumes basic input validation for user-provided text.
 - Assumes that the txtai library and its dependencies are properly installed.
 
-## **`Future Enhancements:`** Potential future enhancements for this project could include:
+## **`Future Enhancements:`** 
+Potential future enhancements for this project could include:
 1. Improved text summarization models or methods.
 2. Customization options for summarization length.
 3. Integration with external data sources beyond Wikipedia.
 4. Support for summarizing documents in multiple languages.
 5. Enhanced error handling and user feedback.
 
-## **`Conclusion:`** This project aims to simplify text summarization tasks for users by providing a user-friendly web interface that leverages the txtai library. It offers both the ability to summarize user-provided text and to search and summarize Wikipedia articles. While it addresses the basic needs of text summarization, there is room for future enhancements and improvements to make it more robust and versatile.
+## **`Conclusion:`** 
+This project aims to simplify text summarization tasks for users by providing a user-friendly web interface that leverages the txtai library. It offers both the ability to summarize user-provided text and to search and summarize Wikipedia articles. While it addresses the basic needs of text summarization, there is room for future enhancements and improvements to make it more robust and versatile.
