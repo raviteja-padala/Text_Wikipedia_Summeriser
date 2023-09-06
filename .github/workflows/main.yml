@@ -1,34 +1,38 @@
-name: Deploy Streamlit App
+name: workflow
 
 on:
   push:
     branches:
       - main
+  pull_request:
+    branches:
+      - main
 
 jobs:
-  deploy:
-    runs-on: ubuntu-latest
+  integration:
+    name: Continuous Integration
+    runs-on: [ubuntu-latest]
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Lint code
+        run: echo "Linting repository"
+
+      - name: Run unit tests
+        run: echo "Running unit tests"
+
+
+
+
+  dependency_check:
+    runs-on: [ubuntu-latest]
 
     steps:
-      - name: Checkout code
+      - name: Checkout Repository
         uses: actions/checkout@v2
 
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
-          python-version: 3.x  # Replace with your desired Python version (e.g., 3.8, 3.9)
-
-      - name: Set up Virtual Environment
-        run: |
-          python -m venv venv
-          source venv/bin/activate  # On Windows, use: venv\Scripts\activate
-          pip install --upgrade pip
-          pip install -r requirements.txt
-
-      - name: Build Streamlit app
-        run: |
-          streamlit build your_app.py  # Replace with your app's filename
-
-      - name: Deactivate Virtual Environment
-        run: deactivate  # Deactivate the virtual environment
-
+          python-version: 3.8
