@@ -1,0 +1,4 @@
+Flask
+txtai[all]
+streamlit
+beautifulsoup4
