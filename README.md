@@ -1,6 +1,6 @@
-# Text_Wikipedia_Summeriser
+# Text_and_Wikipedia_Summeriser
 
-## **`Project Name:`** Text_Wikipedia_Summeriser
+## **`Project Name:`** Text_and_Wikipedia_Summeriser
 
 ## **`Project Description:`** This project involves creating a Streamlit web application that allows users to summarize text using the txtai library. It provides two main functionalities: summarizing user-provided text and summarizing Wikipedia articles based on user search queries.
 
