@@ -54,3 +54,12 @@ Potential future enhancements for this project could include:
 
 ## **`Conclusion:`** 
 This project aims to simplify text summarization tasks for users by providing a user-friendly web interface that leverages the txtai library. It offers both the ability to summarize user-provided text and to search and summarize Wikipedia articles. While it addresses the basic needs of text summarization, there is room for future enhancements and improvements to make it more robust and versatile.
+
+ 
+Notebook : [Text summarization using txtai](https://github.com/raviteja-padala/Text_and_Wikipedia_Summeriser/blob/main/Text_summarization_using_txtai.ipynb)
+
+User guide: [Web Application User guide](https://github.com/raviteja-padala/Text_and_Wikipedia_Summeriser/blob/main/Text_and_Wikipedia_Summeriser%20-%20User%20guide.pdf)
+
+
+
+Thank You.
