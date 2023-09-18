@@ -1,12 +1,16 @@
 # Text_and_Wikipedia_Summeriser
 
-## **`Project Name:`** Text_and_Wikipedia_Summeriser
+## **`Project Name:`** 
+Text_and_Wikipedia_Summeriser
 
-## **`Project Description:`** This project involves creating a Streamlit web application that allows users to summarize text using the txtai library. It provides two main functionalities: summarizing user-provided text and summarizing Wikipedia articles based on user search queries.
+## **`Project Description:`** 
+This project involves creating a Streamlit web application that allows users to summarize text using the txtai library. It provides two main functionalities: summarizing user-provided text and summarizing Wikipedia articles based on user search queries.
 
-## **`Problem Statement:`** Users often need to extract key information or generate concise summaries from large text documents, which can be a time-consuming and challenging task. This project aims to address this problem by providing a user-friendly interface for text summarization.
+## **`Problem Statement:`** 
+Users often need to extract key information or generate concise summaries from large text documents, which can be a time-consuming and challenging task. This project aims to address this problem by providing a user-friendly interface for text summarization.
 
-## **`Business Need:`** The business need for this project is to provide a tool that can help businesses save time and money. By automating the process of summarizing text, businesses can save time and resources that can be used for other tasks.
+## **`Business Need:`** 
+The business need for this project is to provide a tool that can help businesses save time and money. By automating the process of summarizing text, businesses can save time and resources that can be used for other tasks.
 
 ## **`Project Objectives:`**
 1. Create a user interface with Streamlit for text summarization.
